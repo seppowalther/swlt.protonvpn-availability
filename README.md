@@ -30,10 +30,13 @@ CH#12 is reachable: True remaining servers to test: 1174
 
 After letting the script run (This takes around 10 minutes), you will get a list as a result like this:
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+```
+Reachable servers:
+CA#1
+CA#2
+...
+Non-reachable servers:
+US-VA#4
+SE#2
+...
+```
