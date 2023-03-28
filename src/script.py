@@ -21,10 +21,10 @@ for i in response:
         nonreachable.append(name)
     remainingservers = remainingservers - 1
 
-print("Reachable servers:")
-for i in reachable:
-    print(i)
-
 print ("Non-reachable servers:")
 for i in nonreachable:
+    print(i)
+    
+print("Reachable servers:")
+for i in reachable:
     print(i)
