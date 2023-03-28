@@ -7,8 +7,10 @@ This is a python script for automatically pinging every server of ProtonVPN for 
 You need to have pythonping installed. This can be done by:
 
 ```bash
+pip install response
 pip install pythonping
 ```
+Please note that you might have to write `pip3` instead of `pip`.
 
 ## Usage
 
